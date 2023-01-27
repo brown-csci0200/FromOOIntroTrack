@@ -8,7 +8,7 @@ import org.junit.runners.MethodSorters;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 
-public class Lec1Test {
+public class Lec2Test {
     /**
      * Example test method.
      * Test methods must have @Test before the method
