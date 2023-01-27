@@ -69,7 +69,7 @@ public class FuncList<T> implements IFuncList<T> {
     public <R> FuncList<R> map(Function<T,R> transform) {
         LinkedList<R> newList = new LinkedList<>();
         for (T elem: this.theList) {
-            newList.addFirst(transform.apply(elem));
+            newList.addLast(transform.apply(elem));
         }
         return new FuncList<>(newList);
     }
