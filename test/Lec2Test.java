@@ -1,4 +1,4 @@
-package src;
+package test;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -13,6 +13,7 @@ public class Lec2Test {
      * Example test method.
      * Test methods must have @Test before the method
      */
+
     @Test
     public void testExample() {
         // example syntax for assertEquals
