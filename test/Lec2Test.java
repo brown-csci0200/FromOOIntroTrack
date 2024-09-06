@@ -17,6 +17,6 @@ public class Lec2Test {
     @Test
     public void testExample() {
         // example syntax for assertEquals
-        Assert.assertEquals(1+1, 2);
+        Assert.assertEquals(2, 1 + 1);
     }
 }
